@@ -5,5 +5,5 @@ public interface Character {
     void attack();              // prints action including current damage/sprite
     int getSpeed();
     int getDamage();
-    String getSprite();         // current "image" id/path/name
+    String getSprite();
 }

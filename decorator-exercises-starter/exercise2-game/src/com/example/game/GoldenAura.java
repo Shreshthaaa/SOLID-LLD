@@ -7,13 +7,13 @@ public class GoldenAura extends CharacterDecorator {
 
     @Override
     public void move() {
-        System.out.println("✨ Golden Aura active!");
+        System.out.println("Golden Aura active!");
         System.out.println("Moving at speed " + getSpeed() + " with sprite " + getSprite());
     }
 
     @Override
     public void attack() {
-        System.out.println("✨ Golden Aura active!");
+        System.out.println("Golden Aura active!");
         System.out.println("Attacking with damage " + getDamage() + " using sprite " + getSprite());
     }
 
